@@ -1,0 +1,55 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+
+.cBg {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: black;
+}
+
+.cWrapper {
+  display: flex;
+  padding: 50px;
+}
+
+.cLeft {
+  flex: 1;
+}
+
+.cRight {
+  flex: 1;
+}
+
+.cTitle {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  width: 80%;
+}
+
+.cInfo {
+  top: 200px;
+  height: 40%;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cInfoItem {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 25px 0px;
+}
+
+.cIcon {
+  margin-right: 20px;
+}

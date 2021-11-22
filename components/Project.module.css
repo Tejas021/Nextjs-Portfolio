@@ -1,0 +1,63 @@
+.pl {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 50px 100px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.plTexts {
+  width: 65%;
+}
+
+.plTitle {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.plDesc {
+  margin: 20px 0px;
+}
+
+.plList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.p {
+  width: 30%;
+  height: 40vh;
+  border: 2px solid red;
+  margin: 20px 10px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.pBrowser {
+  height: 15px;
+  background-color: red;
+  display: flex;
+  position: sticky;
+  z-index: 2;
+}
+
+.pCircle {
+  height: 6px;
+  width: 6px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.pImg {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.p:hover .pImg {
+  transform: translateY(-100%);
+}
