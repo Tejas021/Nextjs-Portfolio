@@ -33,7 +33,6 @@
   position: absolute;
   top: 70px;
   left: 70px;
-  background-color: black;
 }
 
 .aImg {
@@ -57,4 +56,36 @@
 }
 
 .aIcon {
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    height: 100%;
+    padding: 40px 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .aSocial {
+    padding: 15px 3px;
+  }
+  .aBgCard {
+    width: 100%;
+    height: 50vh;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  .aCard {
+    width: 100%;
+    height: 50vh;
+
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
 }

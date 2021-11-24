@@ -6,6 +6,7 @@ import { Navbar } from '../components/Navbar'
 import ProjectList from '../components/ProjectList'
 import Contact from '../components/Contact'
 
+
 export default function Home() {
   return (
     <div >
@@ -13,6 +14,7 @@ export default function Home() {
    <title>HomePage</title>
  </Head>
 
+<Navbar/>
 <Intro/>
 <About/>
 <ProjectList/>

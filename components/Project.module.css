@@ -1,6 +1,4 @@
 .pl {
-  color: white;
-  background-color: black;
   display: flex;
   align-items: center;
   padding: 50px 100px;
@@ -60,4 +58,22 @@
 
 .p:hover .pImg {
   transform: translateY(-100%);
+}
+
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 15px 3px;
+  }
+  .plTexts {
+    width: 95%;
+  }
+
+  .p {
+    width: 100%;
+    height: 40vh;
+    border: 2px solid red;
+    margin: 20px 10px;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
 }

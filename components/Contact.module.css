@@ -27,7 +27,7 @@
 
 .cTitle {
   position: absolute;
-  color: white;
+
   font-size: 40px;
   width: 80%;
 }
@@ -36,7 +36,7 @@
   top: 200px;
   height: 40%;
   position: absolute;
-  color: whitesmoke;
+
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -52,4 +52,32 @@
 
 .cIcon {
   margin-right: 20px;
+}
+@media screen and (max-width: 480px) {
+  .cWrapper {
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+  .cTitle {
+    position: relative;
+    width: 100%;
+  }
+
+  .cInfo {
+    top: 0px;
+    position: relative;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cBg {
+    display: none;
+  }
+  .cLeft {
+    padding: 10px;
+  }
+  .cInfoItem {
+    width: 100%;
+  }
 }

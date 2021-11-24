@@ -2,9 +2,9 @@ import React from 'react'
 import styles from "./About.module.css"
 const About = () => {
     return (
-        <div className={styles.a}>
+        <div className={`${styles.a} dark:bg-black dark:text-white`}>
             <div className={styles.aLeft}>
-                <div className={styles.aBgCard}></div>
+                <div className={`${styles.aBgCard} bg-black dark:bg-white`}></div>
                 <div className={styles.aCard}>
                     <img className={styles.aImg} src="/img/Me.jpeg"></img>
                 </div>
@@ -17,7 +17,7 @@ const About = () => {
 
           
                <svg
-  className="w-10 h-10 text-red-600 fill-current mr-5"
+  className="w-10 h-10 text-red-600 fill-current mx-2"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 24 24">
   <path
@@ -26,7 +26,7 @@ const About = () => {
 </svg>
 
 <svg
-  className="w-10 h-10 text-red-600 fill-current mr-5"
+  className="w-10 h-10 text-red-600 fill-current mx-2"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 24 24">
   <path
@@ -35,7 +35,7 @@ const About = () => {
 </svg>
 
 <svg
-  className="w-10 h-10 text-red-600 fill-current mr-5"
+  className="w-10 h-10 text-red-600 fill-current mx-2"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 448 512">
   <path
@@ -45,7 +45,7 @@ const About = () => {
 
 
 <svg
-  className="w-10 h-10 text-red-600 fill-current mr-5"
+  className="w-10 h-10 text-red-600 fill-current mx-2"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 448 512">
   <path
@@ -54,7 +54,7 @@ const About = () => {
 </svg>
 
 <svg
-  className="w-10 h-10 text-red-600 text-red-400 fill-current mr-5"
+  className="w-10 h-10 text-red-600 text-red-400 fill-current mx-2"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 496 512">
   <path
@@ -63,7 +63,7 @@ const About = () => {
 </svg>
 
 <svg
-  className="w-10 h-10 text-red-600 fill-current mr-5"
+  className="w-10 h-10 text-red-600 fill-current mx-2"
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg">
   <path
