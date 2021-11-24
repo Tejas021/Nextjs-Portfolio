@@ -7,7 +7,7 @@ const Intro = () => {
 <div className={ `${styles.iLeft} text-white bg-black dark:bg-white dark:text-black`}>
 
 <div className={styles.leftDiv}>
-         <div className={styles.firstLine}><span className="">Hello there I am</span></div>
+         <div className={styles.firstLine}><span className="">Hello there I am the great</span></div>
          <h1 className={styles.name}>Tejas <span >Kolwankar</span></h1>
          <div className={styles.intro}>
          <div className={styles.titlesWrapper}>
