@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./About.module.css"
 const About = () => {
     return (
-        <div className={`${styles.a} dark:bg-black dark:text-white`}>
+        <div className={`${styles.a} dark:bg-black dark:text-white`} id="about">
             <div className={styles.aLeft}>
                 <div className={`${styles.aBgCard} bg-black dark:bg-white`}></div>
                 <div className={styles.aCard}>

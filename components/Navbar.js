@@ -10,9 +10,9 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='fixed top-0 z-50 flex items-center flex-wrap bg-black p-3 '>
+      <nav className='fixed top-0 z-5 flex items-center flex-wrap bg-black p-3 bg-opacity-0'>
        
-        <button
+        {/* <button
           className=' inline-flex p-3 hover:bg-black-600 rounded lg:hidden text-white-600 mr-auto hover:text-black-600 outline-none'
           onClick={handleClick}
         >
@@ -30,39 +30,33 @@ export const Navbar = () => {
               d='M4 6h16M4 12h16M4 18h16'
             />
           </svg>
-        </button>
+        </button> */}
         {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
         <div
-          className={`${
-            active ? '' : 'hidden'
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+        
         >
-          <div className='lg:inline-flex lg:flex-row lg:mr-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-            <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 text-red-600 font-bold items-center justify-center '>
-                Home
+          <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
+           
+{/*             
+              <a href="#projects" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-red-600 font-bold items-center justify-center '>
+                PROJECTS
+              </a>
+           
+            <Link href='#about'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-red-600 font-bold items-center justify-center '>
+                ABOUT
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='#contact'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-red-600 font-bold items-center justify-center '>
-                Services
+                CONTACT
               </a>
-            </Link>
-            <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-red-600 font-bold items-center justify-center '>
-                About us
-              </a>
-            </Link>
-            <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-red-600 font-bold items-center justify-center '>
-                Contact us
-              </a>
-            </Link>
-            <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-red-600 font-bold items-center justify-center '>
+            </Link> */}
+            
+              <a className='lg:inline-flex lg:w-auto w-full  rounded text-red-600 font-bold items-center justify-center '>
               <Button/>
               </a>
-            </Link>
+            
          
           </div>
         </div>
