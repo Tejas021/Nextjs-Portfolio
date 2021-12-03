@@ -5,7 +5,7 @@ import About from "../components/About"
 import { Navbar } from '../components/Navbar'
 import ProjectList from '../components/ProjectList'
 import Contact from '../components/Contact'
-
+import Nav from "../components/Nav"
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
    <title>HomePage</title>
  </Head>
 
-<Navbar/>
+<Nav/>
 <Intro/>
 <About/>
 <ProjectList/>
