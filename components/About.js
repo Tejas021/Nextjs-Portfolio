@@ -11,8 +11,8 @@ const About = () => {
             </div>
             <div className={styles.aRight}>
 
-                <h2 className={styles.aTitle}>About Me</h2>
-                <p>about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me </p>
+                <h2 className={`${styles.aTitle} `}>About Me</h2>
+ <p className={styles.aContent}>I am Tejas Kolwankar.An Explorer ,problem solver and a developer. I am currently purusing my IT Engineering from Vidyavardhinis College of Engineering and technology. My main interests lie in web and application developement. Throught out the years i hvae worked and explored various technolgies including javascript Frameworks like<b> ReactJs,Angular,NextsJs</b>,etc and backend Frameworks like <b>Express</b> working on <b>NodeJs and Django</b> with Python. Along with web technologies i have worked on mobile development projects using <b>flutter and react native</b> . I have worked with elementor and wordpress tools for SEO optimized projects.I have Also Participated in various competitive coding Contests and Hackathons. Along with application developement i am aslo interested in machine learning and artificial intelligence. My other hobbies include singing ,cricket and mountain trekking </p>
                <div className={styles.aSocial}>
 
           

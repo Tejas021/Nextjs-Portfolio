@@ -6,6 +6,7 @@ import { Navbar } from '../components/Navbar'
 import ProjectList from '../components/ProjectList'
 import Contact from '../components/Contact'
 import Nav from "../components/Nav"
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
 <About/>
 <ProjectList/>
 <Contact/>
+<Footer/>
     </div>
   )
 }

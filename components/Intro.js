@@ -20,7 +20,7 @@ const Intro = () => {
             
         </div>
    
-           <div className={styles.desc}>Hello there Hello thereHello thereHello there Hello there Hello there Hello there Hello there Hello there</div>
+           <div className={styles.desc}>Hi I am a full stack developer and an Engineering Student who loves to explore and create<br/>Welcome to my World.</div>
      </div>
        
 </div>
