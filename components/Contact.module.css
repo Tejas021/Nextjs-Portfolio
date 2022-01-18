@@ -23,6 +23,7 @@
 
 .cRight {
   flex: 1;
+  padding-left: 30px;
 }
 
 .cTitle {

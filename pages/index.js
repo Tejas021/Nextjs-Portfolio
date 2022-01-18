@@ -7,6 +7,7 @@ import ProjectList from '../components/ProjectList'
 import Contact from '../components/Contact'
 import Nav from "../components/Nav"
 import Footer from '../components/Footer'
+import Skills from '../components/Skills'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
 <Intro/>
 <About/>
 <ProjectList/>
+<Skills/>
 <Contact/>
 <Footer/>
     </div>

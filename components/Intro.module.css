@@ -1,6 +1,7 @@
 .introWrapper {
   display: flex;
   height: 100vh;
+  
 }
 
 .iLeft {
@@ -98,6 +99,7 @@
 @media screen and (max-width: 480px) {
   .introWrapper {
     flex-direction: column;
+  
   }
   .leftDiv {
     padding: 0px;
@@ -108,6 +110,7 @@
   }
   .iLeft {
     padding: 30px;
+    padding-top: 100px;
   }
   .desc {
     display: none;
