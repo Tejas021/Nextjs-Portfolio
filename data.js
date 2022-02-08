@@ -10,5 +10,7 @@ export const projects=[
     {id:7,link:"",img:"/img/netflix.png",stack:["react"]},
     {id:8,link:"",img:"/img/hulu.png",stack:["nectjs","tailwind"]},
     {id:9,link:"",img:"/img/web3.png",stack:["react","tailwind","solidity","metamask"]},
-    {id:10,link:"",img:"/img/mapsapp.png",stack:["react","node","express","mongodb"]}
+    {id:10,link:"",img:"/img/mapsapp.png",stack:["react","node","express","mongodb"]},
+    {id:11,link:"",img:"/img/blogsapp.png",stacl:["react","node","express","Mongodb"]},
+    {id:12,link:"",img:"/img/covid1.png",stacl:["react","node","express","Mongodb"]}
 ]

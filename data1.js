@@ -13,4 +13,5 @@ export const skills=[
     {id:10,link:"",img:"/img/technology/python.svg",title:"Python"},
     {id:11,link:"",img:"/img/technology/js.svg",title:"Javascript"},  
     {id:12,link:"",img:"/img/technology/react.svg",title:"React Native"}, 
+    
 ]
