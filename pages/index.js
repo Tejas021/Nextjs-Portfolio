@@ -14,15 +14,15 @@ export default function Home() {
     <div >
       
  <Head>
- <Script
-  defer data-domain="nextjs-portfolio-phi-rouge.vercel.app" src="https://plausible.io/js/plausible.js"
-  strategy="beforeInteractive"
-/>
+
 {/* <script defer data-domain="nextjs-portfolio-phi-rouge.vercel.app" src="https://plausible.io/js/plausible.js"></script> */}
 
    <title>HomePage</title>
  </Head>
-
+ <Script
+  defer data-domain="nextjs-portfolio-phi-rouge.vercel.app" src="https://plausible.io/js/plausible.js"
+  strategy="beforeInteractive"
+/>
 <Nav/>
 <Intro/>
 <About/>
