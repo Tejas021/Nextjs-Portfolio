@@ -6,7 +6,7 @@ const About = () => {
             <div className={styles.aLeft}>
                 <div className={`${styles.aBgCard} bg-black dark:bg-white`}></div>
                 <div className={styles.aCard}>
-                    <img className={styles.aImg} src="/img/Me.jpeg"></img>
+                    <img className={styles.aImg} src="/img/self.png"></img>
                 </div>
             </div>
             <div className={styles.aRight}>
