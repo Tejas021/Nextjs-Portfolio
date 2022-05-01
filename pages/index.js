@@ -19,12 +19,11 @@ export default function Home() {
 
    <title>HomePage</title>
  </Head>
-//  <Script
-//   defer data-domain="nextjs-portfolio-phi-rouge.vercel.app" src="https://plausible.io/js/plausible.js"
-//   strategy="beforeInteractive"
-// />
+ <Script
+  defer data-domain="nextjs-portfolio-phi-rouge.vercel.app" src="https://plausible.io/js/plausible.js"
+  strategy="beforeInteractive"
+/>
     
-    <Script defer data-domain="nextjs-portfolio-6qxv423v8-tejas021.vercel.app" src="https://plausible.io/js/plausible.js" strategy="beforeInteractive"/>
 
 <Nav/>
 <Intro/>
