@@ -10,14 +10,14 @@ import { useEffect } from 'react'
 const Button = () => {
   const {theme, setTheme} = useTheme()
   
-
-    console.log(theme)
+console.log(theme)
+    
     return (
         <div>
 {theme === "dark" ? (
         
         <svg
-          onClick={() => setTheme(theme==="dark"?"light":'dark')}
+          onClick={() => setTheme("light")}
           xmlns="http://www.w3.org/2000/svg"
           className="h-10 w-10 text-red-600"
           fill="none"
@@ -32,7 +32,7 @@ const Button = () => {
           />
         </svg>
       ):( <svg
-      onClick={() => setTheme(theme==="dark"?"light":'dark')}
+      onClick={() => setTheme("dark")}
       xmlns="http://www.w3.org/2000/svg"
       className="h-10 w-10 text-red-600"
       fill="none"

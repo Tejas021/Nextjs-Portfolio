@@ -17,6 +17,7 @@ const Skills = () => {
     return (
         <div className="flex flex-col justify-center items-center md:p-20 p-5 ">
             <h1 className="text-5xl fontsize-400 m-15 font-medium" >Skills</h1>
+            <p className=" p-3 fontsize-200">These are the technologies i have got hands dirty in so far .</p>
             <div className="flex flex-wrap items-center justify-center ">
 
                {skills.map(d=><SkillCard key={d.id} title={d.title} img={d.img}/>)}

@@ -11,6 +11,7 @@ export const projects=[
     {id:8,link:"https://hulu-clone-five-ruby.vercel.app/",img:"/img/hulu.png",stack:["nectjs","tailwind"]},
     {id:9,link:"https://web3-478e6.web.app/",img:"/img/web3.png",stack:["react","tailwind","solidity","metamask"]},
     {id:10,link:"",img:"/img/mapsapp.png",stack:["react","node","express","mongodb"]},
-    {id:11,link:"",img:"/img/blogsapp.png",stacl:["react","node","express","Mongodb"]},
-    {id:12,link:"",img:"/img/covid1.png",stacl:["react","node","express","Mongodb"]}
+    {id:11,link:"",img:"/img/blogsapp.png",stack:["react","node","express","Mongodb"]},
+    {id:12,link:"",img:"/img/covid1.png",stack:["react","bootstrap","javascript"]},
+    {id:12,link:"",img:"/img/musicfy.png",stack:["react","flask","pickle","Mongodb"]}
 ]
