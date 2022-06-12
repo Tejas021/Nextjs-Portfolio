@@ -2,7 +2,7 @@ import {useEffect,useState} from 'react'
 import Project from './Project'
 import styles from "./Project.module.css"
 import {projects} from "../data"
-import { useRef } from 'react/cjs/react.development' 
+import { useRef } from 'react' 
 const ProjectList = () => {
     const [dProjects,setDProjects]=useState({text:"SHOW MORE",projects:projects.slice(0,6),state:true})
 
