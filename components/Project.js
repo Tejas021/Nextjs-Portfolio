@@ -17,7 +17,7 @@ const Project = ({link,img,item}) => {
             
            
         </div>
-       {/* <div className={styles.stackBody}>{item.stack.map(s=><div className={styles.stackInner}>{s}</div>)}</div> */}
+       <div className={styles.stackBody}>{item.stack.map(s=><div key={s} className={styles.stackInner}>{s}</div>)}</div>
     </div>
         
     )

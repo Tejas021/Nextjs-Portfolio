@@ -17,7 +17,7 @@ export default function Home() {
 
 {/* <script defer data-domain="nextjs-portfolio-phi-rouge.vercel.app" src="https://plausible.io/js/plausible.js"></script> */}
 
-   <title>HomePage</title>
+   <title>Tejas Kolwankar</title>
  </Head>
  <Script
   defer data-domain="nextjs-portfolio-phi-rouge.vercel.app" src="https://plausible.io/js/plausible.js"

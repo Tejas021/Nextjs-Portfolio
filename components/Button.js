@@ -10,8 +10,8 @@ import { useEffect } from 'react'
 const Button = () => {
   const {theme, setTheme} = useTheme()
   
-console.log(theme)
-    
+  useEffect(()=>{setTheme("light")},[])
+
     return (
         <div>
 {theme === "dark" ? (
