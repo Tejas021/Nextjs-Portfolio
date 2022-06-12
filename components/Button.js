@@ -10,7 +10,7 @@ import { useEffect } from 'react'
 const Button = () => {
   const {theme, setTheme} = useTheme()
   
-  useEffect(()=>{setTheme("light")},[])
+  useEffect(()=>{setTheme("light")},[setTheme])
 
     return (
         <div>
