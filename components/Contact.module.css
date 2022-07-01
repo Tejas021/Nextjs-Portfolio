@@ -1,6 +1,7 @@
 .c {
   height: 100vh;
   position: relative;
+  background:red;
 }
 
 .cBg {
@@ -82,5 +83,10 @@
   }
   .cInfoItem {
     width: 100%;
+  }
+
+  .cRight {
+    flex: 1;
+    padding: 10px;
   }
 }

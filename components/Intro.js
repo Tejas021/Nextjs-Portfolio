@@ -15,7 +15,7 @@ const Intro = () => {
                  <div className={styles.introItems}><p className="text-yellow-600">Full Stack Developer</p></div>
                  <div className={styles.introItems}><p className="text-gray-600">ML Enthusiast</p></div>
                  <div className={styles.introItems}><p className="text-green-600">NodeJs Developer</p></div>
-                 <div className={styles.introItems}><p className="text-indigo-600" >FrontEnd Developer</p></div>
+                 <div className={styles.introItems}><p className="text-indigo-600" >Asso. AWS Dev</p></div>
              </div>
             
         </div>
@@ -27,7 +27,7 @@ const Intro = () => {
 
 
 <div className={`${styles.iRight} bg-black dark:bg-white`}>
-     <div className={`${styles.iBg} bg-white dark:bg-black `}></div>
+     <div className={`${styles.iBg} bg-red-500 dark:bg-red-500 `}></div>
      <img className={styles.iImg} src="/img/Me-modified.png"></img>
      </div>
 

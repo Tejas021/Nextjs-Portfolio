@@ -1,9 +1,13 @@
 import Image from "next/image"
 import {skills} from "../data1"
+import styles from "./Skills.module.css"
+
+
+
 
 const SkillCard = ({title,img}) => {
     return (
-        <div className="w-30 p-3 sm:p-5 sm:m-10 m-2 rounded border-solid border-2 border-red-500 items-center justify-center">
+        <div className={[styles.flexer,"w-30   p-3  sm:p-5 sm:m-10 m-2 rounded border-solid border-2 border-red-500 items-center justify-center"].join(' ')}>
             <Image src={img} objectFit="contain" height={"200px"} width={"200px"} alt={title} className=""/>
             <h1 className="text-center text-m sm:text-xl items-center ">{title}</h1>
         </div>

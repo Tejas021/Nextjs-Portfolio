@@ -2,9 +2,9 @@ import React from 'react'
 import styles from "./About.module.css"
 const About = () => {
     return (
-        <div className={`${styles.a} dark:bg-black dark:text-white`} id="about">
+        <div className={`${styles.a} dark:bg-white dark:text-black`} id="about">
             <div className={styles.aLeft}>
-                <div className={`${styles.aBgCard} bg-black dark:bg-white`}></div>
+                <div className={`${styles.aBgCard} bg-red-500 dark:bg-red-500`}></div>
                 <div className={styles.aCard}>
                     <img className={styles.aImg} src="/img/self.png"></img>
                 </div>
