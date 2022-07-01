@@ -13,7 +13,8 @@ const Contact = () => {
         emailjs.sendForm('service_n8rk16l', 'template_x0b2l6d', formRef.current, 'user_YF2S6xgJsbD4avgHCKpiT')
         .then((result) => {
             console.log(result.text);
-            setDone(true)
+            setDone(true);
+            formRef.current.user_name.innerText=""
         }, (error) => {
             console.log(error.text);
         });
@@ -77,12 +78,12 @@ const Contact = () => {
       <label htmlFor="message" className="text-gray-500 font-light mt-4 dark:text-gray-50">Message<span className="text-red-500">*</span></label>
       <textarea name="user_message" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-600 font-light text-gray-500"></textarea>
       <div className="flex flex-row items-center justify-start">
-      <button className="bg-red-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10">
-  Button
+      <button type="submit " className="bg-red-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10">
+  Mail
 </button>
 
       </div>
-     {done&& <div>Thank You For Contacting</div>}
+     {done&& <div className='text-green-500 m-5'>Thank You For Contacting</div>}
     </form>
 
 

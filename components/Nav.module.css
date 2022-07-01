@@ -66,11 +66,16 @@
     width: 100%;
     background-color: black;
     justify-content: space-around;
+    border-bottom: 2px solid red;
   }
   .navItems {
     text-align: center;
     font-weight: 400;
     color: White;
+    /* border:none;
+    border-bottom: 2px solid red;
+    border-width: 5px;
+    border-radius:100px; */
   }
   .navItems:hover {
     color: red;
