@@ -11,7 +11,9 @@ const Project = ({link,img,item}) => {
                 
             </div>
             <a href={link}>
+            <h2 className={styles.proTitle}>{item.title}</h2>
             <img src={img} className={styles.pImg}></img>
+           
 
             </a>
             

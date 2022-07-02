@@ -1,14 +1,14 @@
 export const projects=[
 
 
-    {id:13,link:"",img:"/img/musicfy.png",stack:["react","flask","pickle","Mongodb"]},
+    {id:13,link:"",img:"/img/musicfy.png",stack:["react","flask","pickle","Mongodb"],title:"Music recommender"},
    
-    {id:7,link:"https://netflix-clone-d53e6.web.app/",img:"/img/netflix.png",stack:["react"]},
-    {id:3,link:"https://ecommerce-project-final.web.app/",img:"/img/ecommerce.png",stack:["react","node","express","mongodb"]},
+    {id:7,link:"https://netflix-clone-d53e6.web.app/",img:"/img/netflix.png",stack:["react"],title:"Netflix-clone"},
+    {id:3,link:"https://ecommerce-project-final.web.app/",img:"/img/ecommerce.png",stack:["react","node","express","mongodb"],title:"Ecommerce-app"},
 
-    {id:15,link:"",img:"/img/whatsapp.png",stack:["nextjs","firebase"]},
-    {id:5,link:"https://yatagram-2ed98.web.app/",img:"/img/yatagram.png",stack:["react","node","express","mongodb"]},
-    {id:11,link:"",img:"/img/blogsapp.png",stack:["react","node","express","Mongodb"]},
+    {id:15,link:"",img:"/img/whatsapp.png",stack:["nextjs","firebase"],title:"whatsapp-clone"},
+    {id:5,link:"https://yatagram-2ed98.web.app/",img:"/img/yatagram.png",stack:["react","node","express","mongodb"],title:"social-media-app"},
+    {id:11,link:"",img:"/img/blogsapp.png",stack:["react","node","express","Mongodb"],title:"blogs-app"},
     {id:6,link:"https://nextjs-portfolio-phi-rouge.vercel.app/",img:"/img/portfolio nextjs.png",stack:["nextjs","tailwind"]},
     
     {id:4,link:"https://tejas021.github.io/PORTFOLIO/",img:"/img/portfolio.png",stack:["nextjs","tailwind"]},

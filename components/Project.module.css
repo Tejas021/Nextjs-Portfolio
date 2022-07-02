@@ -81,6 +81,17 @@ border-radius: 15px 15px;
 margin:2px 5px
 }
 
+.proTitle{
+  z-index: 2;
+  top:10;
+  right: 10;
+ 
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 480px) {
   .pl {
     padding: 15px 3px;
