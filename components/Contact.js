@@ -28,7 +28,7 @@ const Contact = () => {
             <div className={styles.cLeft}>
             
                     
-                <h1 className={` text-black sm:text-white dark:text-white sm:dark:text-black ${styles.cTitle}`}>Hello,Lets Have a Talk!</h1>
+                <h1 className={`sm:text-2xl text-5xl text-black  sm:text-white dark:text-white sm:dark:text-black ${styles.cTitle}`}>Hello,Lets Have a Talk!</h1>
                 <div className={`${styles.cInfo}  text-black sm:text-white dark:text-white sm:dark:text-black`}>
                     <div className={styles.cInfoItem}>
                     <div className={styles.cIcon}>

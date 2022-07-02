@@ -1,4 +1,13 @@
 @media screen and (max-width: 480px) {
     .flexer{
-    flex: 1;
-}}
+    
+    border: none;
+    width: 20%;
+}
+
+.texter{
+    display: none;
+}
+
+
+}

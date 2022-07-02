@@ -2,7 +2,7 @@
   display: flex;
   height: 100vh;
   align-items: center;
-  width:95%;
+  width:100%;
   margin:auto
 }
 
@@ -66,16 +66,23 @@
 
 
 @media screen and (max-width: 480px) {
+
+  .a{
+    overflow: hidden;
+  }
+
   .aContent {
     justify-content: center;
     text-align: justify;
     padding: 15px;
+ font-size: 16px;
   }
+
   
   .aTitle {
     padding-top: 20px;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 500;
   }
 
   .a {
