@@ -1,6 +1,7 @@
 .introWrapper {
   display: flex;
   height: 100vh;
+  background-color: #272727;
 }
 
 .iLeft {

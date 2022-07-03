@@ -17,7 +17,7 @@ const About = () => {
 
           
               <a href="google.com"><svg 
-              className="w-10 h-10 text-red-600 fill-current mx-2"
+              className="w-10 h-10 text-blue-300 fill-current mx-2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24">
               <path
@@ -26,7 +26,7 @@ const About = () => {
             </svg></a> 
 
             <a href=''><svg
-            className="w-10 h-10 text-red-600 fill-current mx-2"
+            className="w-10 h-10 text-blue-600 fill-current mx-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24">
             <path
@@ -35,7 +35,7 @@ const About = () => {
           </svg></a>
 
 <a href=''><svg
-className="w-10 h-10 text-red-600 fill-current mx-2"
+className="w-10 h-10 text-green-600 fill-current mx-2"
 xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 448 512">
 <path
@@ -45,7 +45,7 @@ viewBox="0 0 448 512">
 
 
 <a href=""><svg
-className="w-10 h-10 text-red-600 fill-current mx-2"
+className="w-10 h-10 text-blue-700 fill-current mx-2"
 xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 448 512">
 <path
