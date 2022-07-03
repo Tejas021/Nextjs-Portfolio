@@ -1,6 +1,6 @@
 .introWrapper {
   display: flex;
-  height: 100vh;
+  height: 100%;
   
 }
 
@@ -25,8 +25,7 @@
   justify-content: space-between;
 }
 
-.rightDiv {
-}
+
 
 .name {
   font-size: 75px;
@@ -68,8 +67,7 @@
   font-weight: bold;
 }
 
-.desc {
-}
+
 
 .iImg {
   width: 100%;
