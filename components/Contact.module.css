@@ -1,6 +1,5 @@
 .c {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 100vh;
   position: relative;
   background:red;
 }
