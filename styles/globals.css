@@ -2,8 +2,15 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body{
+
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   background-color: black;
+}
+html {
+  height: -webkit-fill-available;
 }
 
 a {
